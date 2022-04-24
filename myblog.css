@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+/* font-family: 'Water Brush', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+/* font-family: 'Tapestry', cursive; */ 
+*{
+    margin: 0;
+    padding: 0;
+}
+.navtop{
+    margin: 0;
+    padding: 0;
+    background-color: #221E1C;    
+}
+.navmargin{
+    margin: 0 25px;
+    color: white;
+}
+.logoabout{
+    font-family: 'Water Brush', cursive;
+    font-size: 50px;
+    color: white;
+}
+.logome{
+    font-family: 'Tapestry', cursive;
+    font-size: 20px;
+    color: white;
+}
+.navul{
+    margin-left: auto;
+    color: white;
+}
+#navbarNav ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 5px;
+    color: white;
+    padding: 18px;
+    cursor: pointer;
+}
+#navbarNav ul li a:hover{
+    background: #04B962;
+    }
+     
+.banner{
+    height: 75vh;
+     
+    font-weight: 900;
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+    background-size: cover;
+    background-position: center;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+} 
+.icon{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.about{
+    margin: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.spanme{
+    color: #04B962;
+}
+.line{
+    width: 25%;
+    height: 8px;
+    padding: 1px;
+    background-color: #04B962;
+    margin: 10px auto; 
+} 
+.aboutimg{
+    padding: 1px;
+    border: 2px solid #04B962;
+    border-radius: 15px;
+}
+.abtbtn{
+    color: black;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    shape-outside: 0;
+}
+.abtbtn:hover{
+background-color: #04B962;
+color: white;
+}
+.abouttext{
+    text-align: justify;
+}
+.abtbuttons{
+    /* padding: 10px;
+    margin: 3px; */
+    background-color: #d9a5b3;
+    color: white;
+    border: 0;
+    outline: 0;
+    justify-content: center;
+}
+.abtbuttons:hover{
+    background-color: #04B962;
+    color: white;
+}
+.abtbuttons img:hover{
+    color: white;
+}
+.iconradius{    
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 2px;
+} 
+ 
